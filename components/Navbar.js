@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <ul className="navbar">
       <li>
@@ -37,6 +37,7 @@ export default function Navbar() {
           font-family: Cinzel;
           position: fixed;
           margin: 0;
+          padding: 0;
           top: 0;
           display: block;
           width: 100%;
@@ -57,7 +58,6 @@ export default function Navbar() {
           transition: all 0.3s;
           color: #f2e88e;
         }
-
         .navbar a:active {
           border-bottom: 3px solid #999041;
           color: #999041;

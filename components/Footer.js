@@ -37,12 +37,12 @@ export default function Footer(props) {
           width: 100%;
           text-align: center;
           font-family: Inconsolata;
-          color: black;
+          color: #f2e88e;
           list-style-type: none;
         }
         .footer a {
           text-decoration: none;
-          color: black;
+          color: #f2e88e;
           text-align: center;
         }
       `}</style>

@@ -1,9 +1,15 @@
 import Navbar from "components/Navbar";
 
-const Index = () => {
+const Index = (props) => {
   return (
     <>
-      <div className="index"></div>
+      <style jsx global>{`
+        body {
+          background-image: url("/indexmatty.jpg");
+          background-position: center -200px;
+          background-attachment: fixed;
+        }
+      `}</style>
     </>
   );
 };
