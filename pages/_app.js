@@ -9,7 +9,6 @@ const MyApp = ({ Component, pageProps }) => {
         body {
           margin: 0px;
           padding: 0px;
-          background-image: url("indexmatty.jpeg");
         }
       `}</style>
       <Navbar />

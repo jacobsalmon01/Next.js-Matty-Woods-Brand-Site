@@ -8,6 +8,12 @@ const Index = (props) => {
           background-image: url("/indexmatty.jpg");
           background-position: center -200px;
           background-attachment: fixed;
+          font-family: Cinzel;
+        }
+        @font-face {
+          font-family: "Cinzel";
+          font-style: normal;
+          src: local("Cinzel"), url("public/fonts/Cinzel-VariableFont_wght.ttf");
         }
       `}</style>
     </>
