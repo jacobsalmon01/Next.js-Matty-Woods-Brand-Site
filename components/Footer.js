@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-export default function Footer(props) {
+export default function Footer({ footerColor }) {
+  console.log({ footerColor });
   return (
     <ul
       className="footer"
@@ -37,12 +38,12 @@ export default function Footer(props) {
           width: 100%;
           text-align: center;
           font-family: Inconsolata;
-          color: #f2e88e;
+          color: ${footerColor};
           list-style-type: none;
         }
         .footer a {
-          text-decoration: none;
-          color: #f2e88e;
+          text-decoration: none !important;
+          color: ${footerColor};
           text-align: center;
         }
       `}</style>

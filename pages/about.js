@@ -1,8 +1,14 @@
 import Navbar from "components/Navbar";
+import Footer from "components/Footer";
 
 const About = () => {
   return (
     <>
+      <div>
+        <Navbar clickColor="#A74D2E" />
+        <Navbar hoverColor="#D7BA9A" />
+        <Footer footerColor="#D7BA9A" />
+      </div>
       <div className="content">
         <p>
           Matty Wood$ is a St. Louis Native who has molded his sound around
@@ -24,7 +30,7 @@ const About = () => {
         }
         .content {
           position: relative;
-          margin-top: 80vh;
+          margin-top: 78vh;
           z-index: 3;
           background-color: #454545;
           color: #d7ba9a;

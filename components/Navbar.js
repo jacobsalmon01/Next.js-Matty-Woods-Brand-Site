@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Navbar(props) {
+export default function Navbar({ hoverColor, clickColor }) {
   return (
     <ul className="navbar">
       <li>
@@ -54,13 +54,13 @@ export default function Navbar(props) {
           padding: 14px 16px;
         }
         .navbar a:hover {
-          border-bottom: 3px solid #f2e88e;
+          border-bottom: 3px solid ${hoverColor};
           transition: all 0.3s;
-          color: #f2e88e;
+          color: ${hoverColor};
         }
         .navbar a:active {
-          border-bottom: 3px solid #999041;
-          color: #999041;
+          border-bottom: 3px solid ${clickColor};
+          color: ${clickColor};
         }
       `}</style>
     </ul>

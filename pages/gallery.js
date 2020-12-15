@@ -1,8 +1,14 @@
 import Navbar from "components/Navbar";
+import Footer from "components/Footer";
 
 const Gallery = () => {
   return (
     <>
+      <div>
+        <Navbar clickColor="#183568" />
+        <Navbar hoverColor="#5C7FBC" />
+        <Footer footerColor="#5C7FBC" />
+      </div>
       <style jsx global>{`
         body {
           background-color: #959ba5;
