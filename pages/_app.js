@@ -1,5 +1,6 @@
 import Navbar from "components/Navbar";
 import Footer from "components/Footer";
+import "styles/globals.css";
 import App from "next/app";
 
 const MyApp = ({ Component, pageProps }) => {

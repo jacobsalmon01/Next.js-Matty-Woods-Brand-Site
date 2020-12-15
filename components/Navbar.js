@@ -34,6 +34,7 @@ export default function Navbar(props) {
           color: #454545;
           font-size: 25px;
           font-weight: 500;
+          font-family: Cinzel;
           position: fixed;
           margin: 0;
           padding: 0;
@@ -60,10 +61,6 @@ export default function Navbar(props) {
         .navbar a:active {
           border-bottom: 3px solid #999041;
           color: #999041;
-        }
-        @font-face {
-          font-family: "Cinzel";
-          src: local("Cinzel"), url(public/fonts/Cinzel-VariableFont_wght.ttf);
         }
       `}</style>
     </ul>

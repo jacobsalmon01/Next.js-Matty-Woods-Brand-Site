@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Cinzel";
+    src: local("Cinzel"), url(public/fonts/Cinzel-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: "Inconsolata";
+    src: local("Inconsolata"), url(public/fonts/Inconsolata-VariableFont_wdth,wght.ttf);
+  }
